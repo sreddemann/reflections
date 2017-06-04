@@ -3,3 +3,5 @@ When I initialize a new repo, the metadata file structure is added and a new git
 We need to initialize a git repo to be able to track future changes via commits. The command basically enables version control for the current directory.
 
 The staging area is stuck in between the working directory and the actual repository. It helps controlling the commits to the repo very specifically. It will help to keep track of changes to files that are edited during one feature addition for example. Otherwise you would always commit all the files or have to specify the subset via command line which might become a tedious task.
+
+The staging area helps to see exactly which files will be committed to the repository. Even if you changed some file, which was not part of a major logical change, you can exclude it from the staging area and therefore make clear commits.
