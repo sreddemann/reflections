@@ -1,0 +1,1 @@
+This is helpful for a couple of reasons. First, it safely backs up the data and makes it easy to work with multiple computers. Furthermore it enables collaboration.
