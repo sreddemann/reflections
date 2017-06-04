@@ -1,0 +1,13 @@
+As diff only showed changed lines, the subset of lines to look over to find the critical (and erroneous) change was simplified by a big margin
+
+Having the history of files could help when the code breaks at one point and I have no idea where exactly I produced the error. I could go back to an older (working) version and use diff to see there difference to narrow down the parts that are responsible.
+
+Committing manually has the advantage that a commit will encapsulate one logical change in the code. It will implement the feature and is a stable base to work on for the next commit.
+
+Google Docs etc. treat each file separately because usually you do not have any interdependencies between them. Therefore each file is its own "repository". When coding sometimes changes are needed throughout multiple files - as coding is modular - and therefore a commit should treat all files of the project.
+
+get log shows the history of all commits that were made for a file. Each of them has a unique commit ID that can be used to reference that specific commit. With git diff any two commits can be compared in order to focus on code changes similar to the command line program diff
+
+Version control enables you to jump back to any previous version. Therefore once you have a running version you will not loose it and thus are perfectly fine to adjust and try things.
+
+I want to use git for coding, learning AI/machine learning and enhance my skills in python programming

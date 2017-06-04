@@ -1,0 +1,3 @@
+When I initialize a new repo, the metadata file structure is added and a new git repository is created. There is no initial commit, all commits have to be done by the user.
+
+We need to initialize a git repo to be able to track future changes via commits. The command basically enables version control for the current directory.
