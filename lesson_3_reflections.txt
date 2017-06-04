@@ -1,1 +1,5 @@
 This is helpful for a couple of reasons. First, it safely backs up the data and makes it easy to work with multiple computers. Furthermore it enables collaboration.
+
+Manual pulls make sure that I only pull the new commits at the right time. 
+
+Forking is basically cloning on GitHub servers. This will create a copy of the forked repo in your useraccount. Cloning on the other hand is copying to a local machine and setting up the original repo as the origin. Thus push/pull work between the local repo and that one on the GitHub server. A branch is a new commit path inside a repo. I would use forks whenever I want to start off with a given code base and want to credit that person. Cloning is used when some actively works on that repo.

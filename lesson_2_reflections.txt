@@ -9,3 +9,7 @@ The staging area helps to see exactly which files will be committed to the repos
 Branches are logically disjunct versions of the master branch. You can use them to implement a experimental version of your code without touching the master that can be checked out at any point to demo your current working version.
 
 The commit diagram helps to understand the dependency structure within the repo. This is, you can decide which commits are unreachable and if you need to create a new branch. 
+
+Merging two branches tries to put together all changes that were done in both branches. In the graph the forking that happened earlier will run together in a new node with the branch label of the branch that was checked out before merging.
+
+Merging is mostly a very technical process. This is completely done by git thus reducing the work you would have with a full manual merger. Whenever there are conflicts, git will ask you to solve them to not create erradical merged code-bases.
